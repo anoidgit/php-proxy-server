@@ -68,7 +68,7 @@ html body {
 	
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
-			<input type="submit" value="Go" />
+			<input type="submit" value="前往" />
 		</form>
 		
 		<script type="text/javascript">
