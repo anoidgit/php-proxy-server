@@ -62,10 +62,10 @@ function smart_select(ele){
 	<div style="width:800px; margin:0 auto;">
 	
 		<form method="post" action="index.php" target="_top" style="margin:0; padding:0;">
-			<input type="button" value="Home" onclick="window.location.href='index.php'">
+			<input type="button" value="主页" onclick="window.location.href='index.php'">
 			<input type="text" name="url" value="<?php echo $url; ?>" autocomplete="off">
 			<input type="hidden" name="form" value="1">
-			<input type="submit" value="Go">
+			<input type="submit" value="前往">
 		</form>
 		
 	</div>
