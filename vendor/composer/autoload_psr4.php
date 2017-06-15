@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
-    'Proxy\\Plugin\\' => array($vendorDir . '/athlon1600/php-proxy-plugin-bundle/src'),
+    'Proxy\\Plugin\\' => array($vendorDir . '/athlon1600/php-proxy-plugin-bundle/src', $vendorDir . '/athlon1600/php-proxy-plugin-cache'),
     'Proxy\\' => array($vendorDir . '/athlon1600/php-proxy/src'),
+    'Predis\\' => array($vendorDir . '/predis/predis/src'),
 );
